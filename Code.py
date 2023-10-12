@@ -2,7 +2,7 @@ import cv2
 #load the haar-cascade classifier file
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #load the input image
-img = cv2.imread('/Users/joshna/Documents/image.jpeg')
+img = cv2.imread('/Users/j/Documents/image.jpeg')
 cv2.imshow('Original Image',img)
 cv2.waitKey(0)
 #convert input image to grayscale image
